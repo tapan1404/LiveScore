@@ -1,0 +1,54 @@
+.table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    min-height: 100vh;
+    color: #FFD700;
+  }
+  
+  .table-heading {
+    font-size: 28px;
+    color: #FFD700;
+    margin-bottom: 20px;
+  }
+  
+  .table-wrapper {
+    width: 100%;
+    max-width: 900px;
+    background-image: url('./images/rcb-logo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 20px;
+    box-shadow: 0 0 30px rgba(255, 0, 0, 0.3);
+  }
+  
+  .points-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  
+  .points-table th {
+    background-color: #8B0000;
+    color: #FFD700;
+  }
+  
+  .points-table td,
+  .points-table th {
+    border: 1px solid #FFD700;
+    padding: 16px 20px;
+    text-align: center;
+  }
+  
+  .points-table tbody tr:hover {
+    background-color: #4a4804;
+    transition: background 0.3s ease;
+  }
+  
